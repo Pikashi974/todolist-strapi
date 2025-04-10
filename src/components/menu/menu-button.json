@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_menu_menu_buttons",
+  "info": {
+    "displayName": "MenuButton",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "class": {
+      "type": "enumeration",
+      "enum": [
+        "btn-primary",
+        "btn-secondary",
+        "btn-success",
+        "btn-info",
+        "btn-warning",
+        "btn-danger",
+        "btn-light",
+        "btn-dark",
+        "btn-link"
+      ]
+    }
+  }
+}
